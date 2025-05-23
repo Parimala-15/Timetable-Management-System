@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+    <h2>Select Year and Section</h2>
+    <form method="POST">
+        <div class="mb-3">
+            <label for="year">Year:</label>
+            <select class="form-select" id="year" name="year" required>
+                <option value="I">I</option>
+                <option value="II">II</option>
+                <option value="III">III</option>
+                <option value="IV">IV</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="section">Section:</label>
+            <select class="form-select" id="section" name="section" required>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock %}

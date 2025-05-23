@@ -1,0 +1,56 @@
+/* Main styles */
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Timetable grid */
+.timetable-cell {
+  min-height: 120px;
+  vertical-align: top;
+  position: relative;
+}
+
+.lunch-cell {
+  background-color: #fff3cd !important;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.subject-badge {
+  font-size: 0.75rem;
+  margin-right: 0.25rem;
+}
+
+/* Card styling */
+.card {
+  border-radius: 0.75rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Navbar customization */
+.navbar {
+  padding: 0.75rem 1rem;
+}
+
+/* Responsive tables */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Form controls */
+.form-control:focus {
+  box-shadow: none;
+  border-color: #86b7fe;
+}
+
+/* Utility classes */
+.clickable {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.clickable:hover {
+  background-color: #f8f9fa;
+}
