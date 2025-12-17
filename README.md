@@ -5,7 +5,7 @@ A full-fledged Timetable Management System designed to simplify and automate the
 
 ## 🚀 Features
 
-- 🧑‍🏫 Faculty Management  
+-  Faculty Management  
 - 📘 Subject Allocation  
 - 🏫 Room Assignment  
 - 🕒 Slot Management  
